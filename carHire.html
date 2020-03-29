@@ -30,9 +30,9 @@
         
         <nav>
             <ul>
-                <li class="green"> <a href="index.html">Flights</a></li>
+                <li> <a href="index.html">Flights</a></li>
                 <li> <a href="hotels.html">Hotels</a></li>
-                <li> <a href="carHire.html">Car Hire</a></li>
+                <li class="green"> <a href="carHire.html">Car Hire</a></li>
             </ul>
         </nav>
     </header>
@@ -46,32 +46,33 @@
 
 
         
-        <section id="flightMain">
+        <section id="carMain">
         <section class="thisOne">
-            <h1 id="heading">Where are we going?</h1>
-        <section class="col_detail">
+            <h1 id="heading">Find your ride!</h1>
+        <section class="col_detailCar">
             
             <form action="http://year1.ccpdev.me/FormTest.php" method="post">
-                <input type="text" name="From" id="From" size="50" required placeholder="Country, city or airport"><br>
-                <input type="text" name="To" id="To" required placeholder="Country, city or airport"><br>
-                <input type="`text" name="Departure" id="Departure" required placeholder="Departure --/--/----"><br>
-                <input type="text" name="Return" id="Return" required placeholder="Return --/--/----"><br>
-                <input type="text" name="noOfPassangers" id="noOfPassangers" required placeholder="No. of Passangers"><br>
-                <input type="text" name="cabinClass" id="cabinClass" required placeholder="Cabin Class"><br>   
+                <input class="carHireInput" type="text" name="PickUpLocation" id="PickUpLocation" size="50" required placeholder="Country, city or airport"><br>
+                <input class="carHireInput" type="text" name="PickUpDate" id="PickUpDate" required placeholder="Country, city or airport"><br>
+                <input class="carHireInput" type="`text" name="PickUpTime" id="PickUpTime" required placeholder="Departure --/--/----"><br>
+                <input class="carHireInput" type="text" name="DropOffDate" id="DropOffDate" required placeholder="Return --/--/----"><br>
+                <input class="carHireInput" type="text" name="DropOffTime" id="DropOffTime" required placeholder="No. of Passangers"><br>  
             </form>
         </section>
 
         <section class="images">
-                <h2>Recomended for you</h2>
-            <img id="newYork" src="images/newYork.jpg" alt="irish times">
-            <img id="sanDiego" src="images/sanDiego.jpg" alt="irish times">
-            <img id="sanFrancisco" src="images/sanFrancisco.jpg" alt="irish times">
+                <h2>Free, easy and fast comparison of car hire & airport transfers</h2>
+            <img  src="images/enterprise.png" alt="irish times">
+            <br>
+            <img  src="images/eurocar.png" alt="irish times">
+            <br>
+            <img  src="images/sixt.png" alt="irish times">
         </section>
         </section>
         </section>
         
-    
-
+        
+        
         
         
 
@@ -86,9 +87,9 @@
         <nav id="bottom">
             <a href="#top"> Go to Top of Page </a>
             <ul>
-                <li class="green"> <a href="index.html">Flights</a></li>
+                <li> <a href="index.html">Flights</a></li>
                 <li> <a href="hotels.html">Hotels</a></li>
-                <li> <a href="carHire.html">Car Hire</a></li>
+                <li class="green"> <a href="carHire.html">Car Hire</a></li>
             </ul>   
             <small>Copyright 2020 Konrad Szpak</small>
         </nav>

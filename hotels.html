@@ -24,14 +24,15 @@
         <h3 class="corona">COVID-19 (Coronavirus) may impact your travel plans. Wherever you're going, you'll. <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports">Find the latest advice here</a></h3>
     </section>
     
+    
 	<header>
         <img style="float:left; margin-bottom: 30px; margin-right: 10px; margin: 5px;" src="images/logo.png" alt="logo" width = "110">
         <h1 id="title">Travel Website</h1>
         
         <nav>
             <ul>
-                <li class="green"> <a href="index.html">Flights</a></li>
-                <li> <a href="hotels.html">Hotels</a></li>
+                <li> <a href="index.html">Flights</a></li>
+                <li class="green"> <a href="hotels.html">Hotels</a></li>
                 <li> <a href="carHire.html">Car Hire</a></li>
             </ul>
         </nav>
@@ -46,32 +47,33 @@
 
 
         
-        <section id="flightMain">
+        <section id="hotelMain">
         <section class="thisOne">
-            <h1 id="heading">Where are we going?</h1>
-        <section class="col_detail">
+            <h1 id="heading">Find your place to stay!</h1>
+        <section class="col_detailHotel">
             
             <form action="http://year1.ccpdev.me/FormTest.php" method="post">
-                <input type="text" name="From" id="From" size="50" required placeholder="Country, city or airport"><br>
-                <input type="text" name="To" id="To" required placeholder="Country, city or airport"><br>
-                <input type="`text" name="Departure" id="Departure" required placeholder="Departure --/--/----"><br>
-                <input type="text" name="Return" id="Return" required placeholder="Return --/--/----"><br>
-                <input type="text" name="noOfPassangers" id="noOfPassangers" required placeholder="No. of Passangers"><br>
-                <input type="text" name="cabinClass" id="cabinClass" required placeholder="Cabin Class"><br>   
+                <input class="hotelsInput" type="text" name="Stay" id="Stay" size="50" required placeholder="Where are you staying?"><br>
+                <input class="hotelsInput" name="CheckIn" id="CheckIn" required placeholder="Check In --/--/----"><br>
+                <input class="hotelsInput" name="CheckOut" id="CheckOut" required placeholder="Check Out --/--/----"><br>
+                <input class="hotelsInput" name="Guests" id="Guests" required placeholder="Number of Guests"><br>
+                <input class="hotelsInput" name="numOfRooms" id="numOfRooms" required placeholder="Number of Rooms"><br>   
             </form>
         </section>
 
         <section class="images">
-                <h2>Recomended for you</h2>
-            <img id="newYork" src="images/newYork.jpg" alt="irish times">
-            <img id="sanDiego" src="images/sanDiego.jpg" alt="irish times">
-            <img id="sanFrancisco" src="images/sanFrancisco.jpg" alt="irish times">
+                <h2>Get the best prices from top hotel providers</h2>
+            <img  src="images/booking.png" alt="irish times">
+            <br>
+            <img  src="images/trip.png" alt="irish times">
+            <br>
+            <img  src="images/expedia.png" alt="irish times">
         </section>
         </section>
         </section>
         
-    
-
+        
+        
         
         
 
@@ -86,8 +88,8 @@
         <nav id="bottom">
             <a href="#top"> Go to Top of Page </a>
             <ul>
-                <li class="green"> <a href="index.html">Flights</a></li>
-                <li> <a href="hotels.html">Hotels</a></li>
+                <li> <a href="index.html">Flights</a></li>
+                <li class="green"> <a  href="hotels.html">Hotels</a></li>
                 <li> <a href="carHire.html">Car Hire</a></li>
             </ul>   
             <small>Copyright 2020 Konrad Szpak</small>
