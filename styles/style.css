@@ -81,17 +81,19 @@ lable {
 
 
 input[type="radio"]{
-    width: 5px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
+    
     
 }
 
 input {
     
-    width: 16%;
+    width: 18%;
     height: 72px;;
     align-content: center;
     font-size: 18px;
+    font-style: italic;
     
 }
 
@@ -270,11 +272,13 @@ section {
 .col_detailCar {
     color: black;
     column-count: 3;
-    column-rule: 0px solid white;
-    column-gap: 0px;
+    column-rule: 5px solid black;
+    column-gap: 5px;
     padding: 0px;
     height: 100px;
     align-content: center;
+    background-color: royalblue; 
+    font-size: 40px;
 }
 
 #numOfRooms {
@@ -358,4 +362,96 @@ section {
 
 .desc {
 
+}
+
+.nametag {
+}
+
+#noOfPassangers {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#gender {
+}
+
+#book {
+        width: 33%;
+    border-color: black;
+}
+
+#trip {
+        width: 33%;
+    border-color: black;
+}
+
+#exp {
+        width: 33%;
+    border-color: black;
+}
+
+#six {
+            width: 33%;
+    border-color: black;
+}
+
+#euro {
+            width: 33%;
+    border-color: black;
+}
+
+#ent {
+            width: 33%;
+    border-color: black;
+}
+
+#hotel1 {
+        width: 33%;
+    border-color: black;
+}
+
+#hotel2 {
+        width: 33%;
+    border-color: black;
+}
+
+#hotel3 {
+        width: 33%;
+    border-color: black;
+}
+
+#car1 {
+            width: 33%;
+    border-color: black;
+}
+
+#car2 {
+            width: 33%;
+    border-color: black;
+}
+
+#car3 {
+            width: 33%;
+    border-color: black;
+}
+
+#reviewMain {
+        padding: 20px;
+    border-color: 1px solid white;
+    background-image: url(../images/shywhy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#rev {
+    color: white;
+    background-color: royalblue;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-color: solid white;
+}
+
+textarea {
+    font-size: 20px;
 }
