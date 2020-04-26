@@ -25,8 +25,8 @@
     </section>
     
 	<header>
-        <img style="float:left; margin-bottom: 30px; margin-right: 10px; margin: 5px;" src="images/logo.png" alt="logo" width = "110">
-        <h1 id="title">Travel Website</h1>
+        <img class="logo "style="float:left; margin-bottom: 30px; margin-right: 10px; margin: 5px;" src="images/logo.png" alt="logo" width = "110">
+        <h1 class="title">Travel Website</h1>
         
         <nav>
             <ul>
@@ -49,17 +49,18 @@
         <section id="carMain">
         <section class="thisOne">
             <h1 id="heading">Find your ride!</h1>
-        <section class="col_detailCar">
-            
+        <section class="colcolor">
             <form action="http://year1.ccpdev.me/FormTest.php" method="post">
-                <input class="carHireInput" type="text" name="PickUpLocation" id="PickUpLocation" size="50" required placeholder="Country, city or airport"><br>
-                <input class="carHireInput" type="text" name="PickUpDate" id="PickUpDate" required placeholder="Country, city or airport"><br>
-                <input class="carHireInput" type="`text" name="PickUpTime" id="PickUpTime" required placeholder="Departure --/--/----"><br>
-                <input class="carHireInput" type="text" name="DropOffDate" id="DropOffDate" required placeholder="Return --/--/----"><br>
-                <input class="carHireInput" type="text" name="DropOffTime" id="DropOffTime" required placeholder="No. of Passangers"><br>  
+                <input class="carHireInput" type="text" name="PickUpLocation" id="PickUpLocation" size="50" required placeholder="Country, city or airport">
+                <input class="carHireInput" type="text" name="PickUpDate" id="PickUpDate" required placeholder="Country, city or airport">
+                <input class="carHireInput" type="`text" name="PickUpTime" id="PickUpTime" required placeholder="Departure --/--/----">
+                <input class="carHireInput" type="text" name="DropOffDate" id="DropOffDate" required placeholder="Return --/--/----">
+                <input class="carHireInput" type="text" name="DropOffTime" id="DropOffTime" required placeholder="No. of Passangers"><br><br>
+                <input class="button" type="submit" name="submit" id="button" value="Search flight">
+                <input class="button" type="reset" name="reset" id="reset" value="Clear filters">
             </form>
         </section>
-
+        </section>
         <section class="images">
                 <h2>Free, easy and fast comparison of car hire & airport transfers</h2>
             <img  src="images/enterprise.png" alt="irish times">
