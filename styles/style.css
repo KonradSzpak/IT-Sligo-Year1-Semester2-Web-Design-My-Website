@@ -128,9 +128,7 @@ title {
     padding-bottom: 50px;
 }
 
-.narrow {
-    width: 1000;
-}
+
 
 .mainTop {
 
@@ -207,7 +205,6 @@ section {
 #flightMain {
     
     padding: 20px;
-    border-color: 1px solid white;
     background-image: url(../images/shywhy.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -224,7 +221,6 @@ section {
 #carMain {
     
     padding: 20px;
-    border-color: 1px solid white;
     background-image: url(../images/carcar1.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -301,7 +297,6 @@ section {
     padding: 10px;
     padding-bottom: 50px;
     border-radius: 10px;
-    border-color: solid white;
     
 }
 
@@ -309,9 +304,6 @@ section {
 
 }
 
-#submit {
-    column-count: 0;
-}
 
 .button {
     
@@ -437,7 +429,6 @@ section {
 
 #reviewMain {
         padding: 20px;
-    border-color: 1px solid white;
     background-image: url(../images/shywhy.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -449,7 +440,6 @@ section {
     padding: 10px;
     padding-bottom: 50px;
     border-radius: 10px;
-    border-color: solid white;
 }
 
 textarea {
